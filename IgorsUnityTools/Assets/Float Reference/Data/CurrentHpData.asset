@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62e489b086e6f4c47a3cb94931f22663, type: 3}
   m_Name: CurrentHpData
   m_EditorClassIdentifier: 
-  Value: 10
+  Value: 0
