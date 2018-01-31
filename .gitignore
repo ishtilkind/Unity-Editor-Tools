@@ -1,26 +1,8 @@
-Skip to content
- 
-Search…
-All gists
-GitHub
-New gist
-@ishtilkind 
-  Star 23
-  Fork 9 @FullStackForgerFullStackForger/.gitignore
-Last active 5 days ago • 
-Report gist
-Embed  
-<script src="https://gist.github.com/FullStackForger/20bbf62861394b1a3de0.js"></script>
-    Download ZIP
- Code  Revisions 2  Stars 23  Forks 9
-.gitignore for Unity3d project
-Raw
- .gitignore
 ###
 # Unity folders and files
 ###
 [Aa]ssets/AssetStoreTools*
-[Bb]uild/
+[Bb]uilds/
 [Ll]ibrary/
 [Ll]ocal[Cc]ache/
 [Oo]bj/
@@ -57,39 +39,3 @@ sysinfo.txt
 Icon?
 ehthumbs.db
 Thumbs.db
- @FullStackForger
-Owner
-FullStackForger commented on Mar 7, 2015
-Good response on stackoverflow http://stackoverflow.com/a/18225479
-
- @dustin-fox
-dustin-fox commented 10 days ago •  edited 
-You have "*.pidb.meta" but I don't think that matches any files in my unity project. Shouldn't it just be "*.meta" or should I actually commit some meta files?
-
- @SteveDAC
-SteveDAC commented 7 days ago
-Shouldn't it just be "*.meta" or should I actually commit some meta files?
-
-You absolutely do need to commit .meta files!
-
-@ishtilkind
-  
-            
- 
-Write  Preview
-
-Leave a comment
-Choose Files Attach files by dragging & dropping, selecting them, or pasting from the clipboard.  Styling with Markdown is supported
-Comment
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
